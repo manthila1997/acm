@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "6edb9cad-daba-46e9-a132-e1cbb78b98ad",
+		"name": "ACM Web Team Selection Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"noiuser1\",\n    \"password\": \"lukeimyourfather\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.noi.lk/api/v1/auth.php",
+					"protocol": "https",
+					"host": [
+						"www",
+						"noi",
+						"lk"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
