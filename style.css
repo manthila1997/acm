@@ -161,7 +161,47 @@ h2{
   margin-top: 100px;
 }
 .story_contain img{
-  width: 80%;
+  width: 90%;
   height: auto;
-  margin-left: 50px;
+}
+.story_contain p{
+  font-weight: lighter;
+}
+center img{
+  width:250px;
+  height: auto;
+
+}
+h3{
+  color: #bf914f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team_2, .logo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.noi{
+  margin-top: 200px;
+}
+.logo img{
+  margin-top: 100px;
+  height: 200px;
+  width: auto;
+}
+ .x{
+  margin-top: 60px;
+  color: rgb(51, 50, 50);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer img{
+  width: 100px;
+  height: auto;
+  margin-top: 100px;
+  
+}
+.footer{
+  width: 100%;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
