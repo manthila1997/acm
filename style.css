@@ -44,7 +44,7 @@ body{
     position:absolute;
     top: 87vh;
     z-index: 1;
-    margin-left: 12%;
+    margin-left: 450px;
     text-align: center;
     justify-content: center;
     background-image:linear-gradient(to bottom,#0b292e , #166575) ;
@@ -127,7 +127,7 @@ h2{
   margin-top: 800px ;
   display: inline-flex;
   gap: 40px;
-  margin-left: 25%;
+  
   
 }
 .next img{
@@ -153,7 +153,6 @@ h2{
   margin-top: 250px ;
   display: inline-flex;
   gap: 40px;
-  margin-left: 33%;
 }
 .story_contain{
   display: grid;
